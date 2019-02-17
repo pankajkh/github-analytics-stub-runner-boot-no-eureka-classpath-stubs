@@ -142,7 +142,7 @@
 							<version>0.4.11</version>
 							<configuration>
 								<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-								<baseImage>frolvlad/alpine-oraclejdk8:slim</baseImage>
+								<baseImage>frolvlad/alpine-oraclejre8:slim</baseImage>
 								<env>
 									<SYSTEM_PROPS>-Dfoo=bar</SYSTEM_PROPS>
 								</env>
